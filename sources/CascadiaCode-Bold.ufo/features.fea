@@ -513,8 +513,7 @@ lookup less_equal {
 lookup less_greater {
   ignore sub less less' greater;
   ignore sub less' greater greater;
-  sub less_greater.liga   greater'  by LIG;
-  sub less'               greater   by less_greater.liga;
+  sub less' greater by notequal;
 } less_greater;
 
 lookup less_plus {
