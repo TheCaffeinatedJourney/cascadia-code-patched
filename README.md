@@ -1,6 +1,6 @@
 # Cascadia Code Patched
 
-This is a fork of the official Cascadia Code font. It replaces the greater-than less-than ligature (`<>`) with the not equal (`≠`) Unicode character.
+This is a fork of the official Cascadia Code font. It replaces the greater-than less-than ligature (`<>`) with the not equal (`≠`) ligature.
 
 The fonts are available for download from [/build/ttf/](https://github.com/TheCaffeinatedJourney/cascadia-code-patched/tree/main/build/ttf).
 

@@ -121,10 +121,10 @@ lookup less_equal {
 } less_equal;
 
 lookup less_greater {
-  sub less_greater.liga   greater'  by LIG;
+  sub exclam_equal.liga greater' by LIG;
   ignore sub less less' greater;
   ignore sub less' greater greater;
-  sub less'               greater   by less_greater.liga;
+  sub less' greater by exclam_equal.liga;
 } less_greater;
 
 lookup less_plus {
